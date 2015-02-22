@@ -34,3 +34,9 @@ Now only the lines from my package are bolded in the output
 Here is a screenshot:
 
 ![Image of Screenshot](https://github.com/corylanou/go-colorize-stack/blob/master/screenshot.png)
+
+
+## Mostly Experimental
+
+This is currently a very experimental project, with no testing, and hardly any use yet.  I plan on dog fooding this
+until it becomes useful to me.  Feel free to open issues or create pull requests with suggestions.
