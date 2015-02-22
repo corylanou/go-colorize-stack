@@ -15,6 +15,7 @@ import (
 const (
 	bold      = 1
 	underline = 4
+	inverse   = 7
 	red       = 31
 	green     = 32
 	yellow    = 33
@@ -40,7 +41,7 @@ func main() {
 		test := strings.TrimSpace(strings.ToLower(line))
 		if !strings.HasPrefix(test, goRoot) {
 			if packageName == "" || strings.Contains(line, packageName) {
-				line = decorate(bold, line)
+				line = decorate(inverse, line)
 			}
 		}
 		fmt.Println(line) // Println will add back the final '\n'

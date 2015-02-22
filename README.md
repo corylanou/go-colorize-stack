@@ -29,7 +29,7 @@ For example, if I'm working on a project called influxdb, I run this command:
 go test ./... | go-colorize-stack -packageName=influxdb
 ```
 
-Now only the lines from my package are bolded in the output
+Now only the lines from my package are inverted in the output
 
 Here is a screenshot:
 
