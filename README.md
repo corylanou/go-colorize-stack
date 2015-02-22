@@ -30,3 +30,7 @@ go test ./... | go-colorize-stack -packageName=influxdb
 ```
 
 Now only the lines from my package are bolded in the output
+
+Here is a screenshot:
+
+![Image of Screenshot](https://github.com/corylanou/go-colorize-stack/blob/master/screenshot.png)
